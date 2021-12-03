@@ -1,11 +1,21 @@
 header {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
+.main {
+    background-color: ghostwhite;
+}
+
+h1 {
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .list {
-    
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 div {
     display: flex;
