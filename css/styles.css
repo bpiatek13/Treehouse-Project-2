@@ -4,6 +4,9 @@ header {
     flex-direction: column;
 }
 
+.list {
+    
+}
 div {
     display: flex;
     flex-direction: column;
