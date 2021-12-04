@@ -4,37 +4,7 @@
     margin: 0;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-}
-
-.main {
-    background-color: ghostwhite;
-}
-
-h1 {
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.list {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 80%
-}
 
 ul {
-    margin: auto;
-}
-
-div {
-    display: flex;
-    flex-direction: column;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
+    list-style-type: none;
 }
