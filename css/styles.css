@@ -4,6 +4,7 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
     text-align: center; /* Aligns all text to the horizontal center of the block */
+    line-height: 1.5;
 }
 
 body {
@@ -16,8 +17,8 @@ h1, h2, h3 {
     margin: 0 auto;
 }
 
-#portfolio {
-    padding: 15% 0 15%;
+h3 {
+    padding: 15px 0 10px;
 }
 
 .bio {
@@ -39,10 +40,25 @@ h1, h2, h3 {
 
 .profile {
     padding: 10% 0;
+    width: 70%;
+}
+
+.intro,
+.closer,
+.info,{
+    color: rgb(167, 165, 167); /* Changed the font color instead of the weight */
 }
 
 .main {
-    background-color: white;
+    background-color: white; /* This is to make the header and footer grey and the body white */
+}
+
+#portfolio {
+    padding: 15% 0 15%;
+}
+
+.content {
+    padding-bottom: 30px;
 }
 
 a {
@@ -64,5 +80,24 @@ p {
 img {
     width: 100%;
 }
+
+#contact {
+    padding: 15% 0 15%;
+    font-size: 15px; /* This decreased the size of the font */
+}
+
+.closer {
+    padding-bottom: 25px;
+}
+
+.info{
+    padding-bottom: 10%;
+}
+
+.span{
+    padding: 5px 0 5px; 
+    /* This created padding for both parts of my contact info.*/
+}
+
 
 /*----Media Queries-----*/
