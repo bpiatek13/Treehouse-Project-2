@@ -45,20 +45,24 @@ h3 {
 
 .intro,
 .closer,
-.info,{
-    color: rgb(167, 165, 167); /* Changed the font color instead of the weight */
+.info {
+    color: rgb(138, 138, 138)   
+    /* Changed the font color instead of the weight */
 }
 
 .main {
-    background-color: white; /* This is to make the header and footer grey and the body white */
+    background-color: white; 
+    /* This is to make the header and footer grey and the body white */
+    padding-bottom: 10%;
 }
 
 #portfolio {
     padding: 15% 0 15%;
+    font-size: 15px;
 }
 
 .content {
-    padding-bottom: 30px;
+    padding-bottom: 15%;
 }
 
 a {
@@ -99,5 +103,17 @@ img {
     /* This created padding for both parts of my contact info.*/
 }
 
+.foot {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    border-top: rgb(165, 165, 165) solid 1px;
+}
+
+.foot li {
+    padding: 10% 0 10%;
+    font-weight: 700;
+    font-size: 15px;
+}
 
 /*----Media Queries-----*/
