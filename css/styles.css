@@ -117,13 +117,17 @@ img {
     font-size: 15px;
 }
 
+.navbar-footer {
+    display: none;
+}
+
 /*----Media Queries-----*/
 @media screen and (min-width: 768px) {
     
     .navbar {
         display: flex;
         justify-content: center;
-        gap: 30px
+        gap: 30px; /* This adds a gap between the child items */
     }
 
     .item {
@@ -145,6 +149,10 @@ img {
         padding-left: 5px;;
     }
 
+    .main {
+        padding-bottom: 20px;
+    }
+
     #portfolio {
         padding: 6% 0 6%;
     }
@@ -163,4 +171,29 @@ img {
     .content {
        padding: 0 25px 15%;
     }
+
+    #contact {
+        padding: 7% 0 7%;
+    }
+
+    .closer {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .foot{
+        padding-top: 0;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .navbar-footer {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+
 }
