@@ -194,6 +194,9 @@ img {
         align-items: center;
         gap: 30px;
     }
-    
+}
 
+@media screen and (min-width: 1024px) {
+
+    
 }
