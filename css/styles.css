@@ -121,7 +121,7 @@ img {
     font-size: 15px;
 }
 
-.navbar-footer {
+.item-2 {
     display: none;
 }
 
@@ -193,10 +193,14 @@ img {
         display: none; /* This makes the selector disappear */
     }
 
-    .navbar-footer {
-        display: flex;
-        align-items: center;
-        gap: 30px;
+    .grow {
+        flex-grow: 8;
+        text-align: left;
+    }
+
+    .item-2 {
+        display: inherit;
+        flex-grow: 1;
     }
 }
 
@@ -267,5 +271,14 @@ img {
         font-size: 20px;
     }
 
+    .grow {
+        flex-grow: 8;
+        text-align: left;
+    }
+
+    .item-2 {
+        display: inherit;
+        flex-grow: 1;
+    }
     
 }
